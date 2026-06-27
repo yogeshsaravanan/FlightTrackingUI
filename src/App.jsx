@@ -10,8 +10,8 @@ export default function App() {
   const [renderedFlights, setRenderedFlights] = useState([]);
   const [selectedFlight, setSelectedFlight] = useState(null);
   const [loading, setLoading] = useState(false);
-  const [filters, setFilters] = useState({ status: '', minSpeed: 0, country: 'All' });
-
+  const [filters, setFilters] = useState({ status: '', minSpeed: 0, country: 'All'});
+//
   const fetchFlights = async () => {
     setLoading(true);
     try {
